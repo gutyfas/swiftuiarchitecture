@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftuiarchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CountryList(viewModel: CountryList.ViewModel())
         }
     }
 }

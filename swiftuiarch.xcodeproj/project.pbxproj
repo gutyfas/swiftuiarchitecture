@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5A2198A32A26932500B9E7B5 /* swiftuiarchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198A22A26932500B9E7B5 /* swiftuiarchApp.swift */; };
-		5A2198A52A26932500B9E7B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198A42A26932500B9E7B5 /* ContentView.swift */; };
+		5A2198A52A26932500B9E7B5 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198A42A26932500B9E7B5 /* CountryList.swift */; };
 		5A2198A72A26932600B9E7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2198A62A26932600B9E7B5 /* Assets.xcassets */; };
 		5A2198AB2A26932600B9E7B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2198AA2A26932600B9E7B5 /* Preview Assets.xcassets */; };
 		5A2198B52A26932600B9E7B5 /* swiftuiarchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198B42A26932600B9E7B5 /* swiftuiarchTests.swift */; };
 		5A2198BF2A26932600B9E7B5 /* swiftuiarchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198BE2A26932600B9E7B5 /* swiftuiarchUITests.swift */; };
 		5A2198C12A26932600B9E7B5 /* swiftuiarchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198C02A26932600B9E7B5 /* swiftuiarchUITestsLaunchTests.swift */; };
+		5A2198CF2A26934800B9E7B5 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198CE2A26934800B9E7B5 /* Country.swift */; };
+		5A2198D32A2694EC00B9E7B5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2198D22A2694EC00B9E7B5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		5A21989F2A26932500B9E7B5 /* swiftuiarch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiarch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2198A22A26932500B9E7B5 /* swiftuiarchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiarchApp.swift; sourceTree = "<group>"; };
-		5A2198A42A26932500B9E7B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A2198A42A26932500B9E7B5 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
 		5A2198A62A26932600B9E7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2198A82A26932600B9E7B5 /* swiftuiarch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuiarch.entitlements; sourceTree = "<group>"; };
 		5A2198AA2A26932600B9E7B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		5A2198BA2A26932600B9E7B5 /* swiftuiarchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftuiarchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2198BE2A26932600B9E7B5 /* swiftuiarchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiarchUITests.swift; sourceTree = "<group>"; };
 		5A2198C02A26932600B9E7B5 /* swiftuiarchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiarchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A2198CE2A26934800B9E7B5 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5A2198D22A2694EC00B9E7B5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,11 @@
 		5A2198A12A26932500B9E7B5 /* swiftuiarch */ = {
 			isa = PBXGroup;
 			children = (
+				5A2198D12A26937900B9E7B5 /* Views */,
+				5A2198D02A26937200B9E7B5 /* ViewModels */,
+				5A2198CD2A26933800B9E7B5 /* Models */,
 				5A2198A22A26932500B9E7B5 /* swiftuiarchApp.swift */,
-				5A2198A42A26932500B9E7B5 /* ContentView.swift */,
+				5A2198A42A26932500B9E7B5 /* CountryList.swift */,
 				5A2198A62A26932600B9E7B5 /* Assets.xcassets */,
 				5A2198A82A26932600B9E7B5 /* swiftuiarch.entitlements */,
 				5A2198A92A26932600B9E7B5 /* Preview Content */,
@@ -127,6 +134,29 @@
 				5A2198C02A26932600B9E7B5 /* swiftuiarchUITestsLaunchTests.swift */,
 			);
 			path = swiftuiarchUITests;
+			sourceTree = "<group>";
+		};
+		5A2198CD2A26933800B9E7B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A2198CE2A26934800B9E7B5 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A2198D02A26937200B9E7B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A2198D22A2694EC00B9E7B5 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5A2198D12A26937900B9E7B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2198A52A26932500B9E7B5 /* ContentView.swift in Sources */,
+				5A2198A52A26932500B9E7B5 /* CountryList.swift in Sources */,
+				5A2198CF2A26934800B9E7B5 /* Country.swift in Sources */,
+				5A2198D32A2694EC00B9E7B5 /* ViewModel.swift in Sources */,
 				5A2198A32A26932500B9E7B5 /* swiftuiarchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
